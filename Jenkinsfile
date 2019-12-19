@@ -6,7 +6,7 @@ pipeline {
         sh 'pwd'
         sh 'pwd'
         sh 'yarn install'
-        sh 'pwd'
+        sh 'ls -l node_modules'
       }
     }
 
@@ -15,7 +15,7 @@ pipeline {
         sh 'pwd'
         sh 'yarn build'
         sh 'pwd'
-        sh 'pwd'
+        sh 'ls -l build'
       }
     }
 
