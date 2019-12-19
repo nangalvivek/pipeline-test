@@ -3,19 +3,28 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        sh 'yarn install'
+        sh 'pwd'
+        sh 'pwd'
+        sh 'pwd'
       }
     }
 
     stage('build') {
       steps {
-        sh 'yarn build'
+        sh 'pwd'
+        sh 'pwd'
+        sh 'pwd'
       }
     }
 
     stage('test') {
       steps {
-        sh 'yarn test'
+        sh 'pwd'
+        sh 'pwd'
+        sh 'pwd'
+        sh 'pwd'
+        sh 'pwd'
+        sh 'pwd'
       }
     }
 
