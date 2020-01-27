@@ -9,9 +9,3 @@ jobs:
     test:
         steps:
             -run: 'yarn test'
-workflows:
-  version: 2
-  pr-build:
-      jobs:
-          - build
-          - test
